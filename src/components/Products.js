@@ -1,5 +1,5 @@
-import React from 'react';
-import { ProductContext } from '../context/productContext'; //Step 1
+import React, { useContext } from 'react'; // Step 3 add useContext
+import { ProductContext } from '../contexts/ProductContext'; //Step 1
 
 // Components
 import Product from './Product';
